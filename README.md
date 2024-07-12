@@ -1,6 +1,6 @@
 # 🍕 BELLA Pizzaria
 
-![BELLA Pizzaria Logo](images/logo.png) <!-- Substitua pelo caminho relativo da sua imagem -->
+![BELLA Pizzaria Logo](images/logo.GIF) <!-- Substitua pelo caminho relativo da sua imagem -->
 
 ## 📖 Descrição do Projeto
 
