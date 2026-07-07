@@ -1,107 +1,121 @@
 # 🍕 BELLA Pizzaria
 
 <p align="center">
-  <img src="./logo.PNG" alt="Logo BELLA Pizzaria" width="180">
+  <img src="./logo.PNG" alt="BELLA Pizzaria" width="350">
 </p>
 
-## 📖 Sobre o Projeto
-
-A **BELLA Pizzaria** é uma aplicação web desenvolvida com **HTML5**, **CSS3** e **JavaScript**, simulando um sistema de pedidos online para uma pizzaria.
-
-O projeto foi criado com o objetivo de praticar conceitos de desenvolvimento Front-end, oferecendo uma interface moderna, responsiva e intuitiva para que os usuários possam visualizar o cardápio, adicionar pizzas ao carrinho e simular o processo de compra.
-
----
-
-## ✨ Funcionalidades
-
-- 🍕 Catálogo de pizzas com imagens, descrições e preços
-- 🛒 Carrinho de compras dinâmico
-- ➕ Adicionar e remover itens do carrinho
-- 💳 Simulação do processo de finalização da compra
-- 📖 Seção "Sobre Nós"
-- 📱 Layout totalmente responsivo
-- 🎨 Interface moderna e intuitiva
+<p align="center">
+  <strong>Uma experiência completa de pedidos de pizza online.</strong><br>
+  Desenvolvido com HTML, CSS e JavaScript.
+</p>
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🌟 Visão Geral
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+A **BELLA Pizzaria** é um projeto Front-end que simula um sistema de pedidos online para uma pizzaria. O objetivo foi criar uma interface moderna, responsiva e intuitiva, permitindo que o usuário navegue pelo cardápio, monte seu pedido e simule uma compra de forma simples.
 
----
-
-## 📂 Estrutura do Projeto
-
-```text
-BELLA-Pizzaria/
-├── assets/
-│   ├── css/
-│   ├── img/
-│   └── js/
-├── logo.PNG
-├── index.html
-└── README.md
-```
-
-> A estrutura pode variar conforme a organização do projeto.
+Além da parte visual, o projeto explora conceitos importantes de manipulação do DOM, lógica de carrinho de compras e organização de componentes utilizando JavaScript puro.
 
 ---
 
-## ▶️ Como Executar
+## 🖼️ Preview
 
-Clone o repositório:
+<p align="center">
+  <img src="./logo.PNG" alt="BELLA Pizzaria" width="600">
+</p>
+
+---
+
+## 🍕 O que você encontra no projeto?
+
+### 🏠 Página Inicial
+
+Uma landing page com apresentação da pizzaria, destaques e navegação intuitiva.
+
+### 📖 Cardápio
+
+Visualização das pizzas disponíveis com:
+
+- Nome
+- Descrição
+- Preço
+- Imagem
+
+### 🛒 Carrinho de Compras
+
+O usuário pode:
+
+- Adicionar pizzas
+- Remover itens
+- Alterar quantidades
+- Visualizar o valor total do pedido
+
+### 💳 Finalização do Pedido
+
+Fluxo simples simulando a conclusão de uma compra.
+
+### 📱 Layout Responsivo
+
+Toda a interface foi adaptada para:
+
+- 💻 Desktop
+- 📱 Smartphones
+- 📲 Tablets
+
+---
+
+## 🛠️ Stack Utilizada
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| HTML5 | Estrutura da aplicação |
+| CSS3 | Layout e estilização |
+| JavaScript | Interatividade e lógica do carrinho |
+
+---
+
+## 💡 Principais Conceitos
+
+Durante o desenvolvimento foram praticados conceitos como:
+
+- Manipulação do DOM
+- Eventos JavaScript
+- Estruturação semântica
+- Responsividade
+- Organização de componentes
+- Lógica de carrinho de compras
+- Boas práticas de Front-end
+
+---
+
+## 🚀 Executando o projeto
 
 ```bash
 git clone https://github.com/SEU-USUARIO/BELLA-Pizzaria.git
 ```
 
-Entre na pasta do projeto:
-
 ```bash
 cd BELLA-Pizzaria
 ```
 
-Abra o arquivo **index.html** no navegador ou utilize uma extensão como **Live Server** no Visual Studio Code.
+Depois basta abrir o arquivo **index.html** ou utilizar o **Live Server** no Visual Studio Code.
 
 ---
 
-## 🎯 Objetivos
+## 🔮 Próximas Melhorias
 
-Este projeto foi desenvolvido para praticar conceitos fundamentais do desenvolvimento Front-end, incluindo:
-
-- Estruturação de páginas com HTML5
-- Estilização com CSS3
-- Manipulação do DOM com JavaScript
-- Lógica de carrinho de compras
-- Responsividade
-- Organização de componentes
-- Experiência do usuário (UX)
-
----
-
-## 📸 Demonstração
-
-<p align="center">
-  <img src="./logo.PNG" alt="BELLA Pizzaria" width="220">
-</p>
-
----
-
-## 🚀 Melhorias Futuras
-
-- [ ] Sistema de autenticação de usuários
-- [ ] Integração com banco de dados
-- [ ] Persistência do carrinho utilizando Local Storage
-- [ ] Sistema de cupons de desconto
-- [ ] Filtro por categorias de pizzas
-- [ ] Busca por nome
-- [ ] Integração com APIs de pagamento
-- [ ] Painel administrativo para gerenciamento do cardápio
+- ⭐ Sistema de favoritos
+- 🔍 Busca de pizzas
+- 🍕 Filtro por categorias
+- 💾 Carrinho salvo com Local Storage
+- 👤 Login de usuários
+- 💳 Integração com gateway de pagamento
+- 📦 Histórico de pedidos
+- 🌙 Modo escuro
 
 ---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos e de aprendizado. Sinta-se à vontade para utilizá-lo como referência em seus estudos e projetos pessoais.
+Projeto desenvolvido para fins de estudo e prática de desenvolvimento Front-end.
