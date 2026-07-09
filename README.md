@@ -1,121 +1,55 @@
 # 🍕 BELLA Pizzaria
 
 <p align="center">
-  <img src="./logo.PNG" alt="BELLA Pizzaria" width="350">
+  <img src="./logo.PNG" alt="Logo BELLA Pizzaria" width="300">
 </p>
 
 <p align="center">
   <strong>Uma experiência completa de pedidos de pizza online.</strong><br>
-  Desenvolvido com HTML, CSS e JavaScript.
+  Desenvolvido com foco em interface intuitiva, responsividade e lógica de carrinho.
+</p>
+
+<p align="center">
+  <a href="#-visão-geral">Visão Geral</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-executando-o-projeto">Como Executar</a>
 </p>
 
 ---
 
 ## 🌟 Visão Geral
 
-A **BELLA Pizzaria** é um projeto Front-end que simula um sistema de pedidos online para uma pizzaria. O objetivo foi criar uma interface moderna, responsiva e intuitiva, permitindo que o usuário navegue pelo cardápio, monte seu pedido e simule uma compra de forma simples.
+A **BELLA Pizzaria** é um projeto Front-end criado para simular um sistema de pedidos online. O foco central foi o desenvolvimento de uma interface moderna e responsiva, aliada a uma lógica de carrinho de compras eficiente utilizando JavaScript puro (Vanilla JS).
 
-Além da parte visual, o projeto explora conceitos importantes de manipulação do DOM, lógica de carrinho de compras e organização de componentes utilizando JavaScript puro.
-
----
-
-## 🖼️ Preview
-
-<p align="center">
-  <img src="./logo.PNG" alt="BELLA Pizzaria" width="600">
-</p>
+Este projeto serviu como um laboratório prático para consolidar conhecimentos sobre manipulação do DOM, armazenamento de estado em memória e design de interfaces focadas na experiência do usuário (UX).
 
 ---
 
-## 🍕 O que você encontra no projeto?
+## 🍕 Funcionalidades
 
-### 🏠 Página Inicial
-
-Uma landing page com apresentação da pizzaria, destaques e navegação intuitiva.
-
-### 📖 Cardápio
-
-Visualização das pizzas disponíveis com:
-
-- Nome
-- Descrição
-- Preço
-- Imagem
-
-### 🛒 Carrinho de Compras
-
-O usuário pode:
-
-- Adicionar pizzas
-- Remover itens
-- Alterar quantidades
-- Visualizar o valor total do pedido
-
-### 💳 Finalização do Pedido
-
-Fluxo simples simulando a conclusão de uma compra.
-
-### 📱 Layout Responsivo
-
-Toda a interface foi adaptada para:
-
-- 💻 Desktop
-- 📱 Smartphones
-- 📲 Tablets
+* **Menu Dinâmico:** Listagem de produtos com descrição, valores e imagens.
+* **Carrinho de Compras:** Adição, remoção e atualização de itens em tempo real.
+* **Cálculo de Total:** Soma automática dos valores dos produtos selecionados.
+* **Checkout Simulado:** Fluxo para finalização do pedido.
+* **Design Responsivo:** Adaptado perfeitamente para Desktop, Tablets e Smartphones.
 
 ---
 
-## 🛠️ Stack Utilizada
+## 🛠️ Tecnologias
 
-| Tecnologia | Finalidade |
-|------------|------------|
-| HTML5 | Estrutura da aplicação |
-| CSS3 | Layout e estilização |
-| JavaScript | Interatividade e lógica do carrinho |
+As seguintes tecnologias foram utilizadas na construção do projeto:
 
----
-
-## 💡 Principais Conceitos
-
-Durante o desenvolvimento foram praticados conceitos como:
-
-- Manipulação do DOM
-- Eventos JavaScript
-- Estruturação semântica
-- Responsividade
-- Organização de componentes
-- Lógica de carrinho de compras
-- Boas práticas de Front-end
+* **HTML5:** Estruturação semântica do conteúdo.
+* **CSS3:** Estilização, Flexbox/Grid e Media Queries para responsividade.
+* **JavaScript (ES6+):** Lógica da aplicação, manipulação do DOM e eventos.
 
 ---
 
-## 🚀 Executando o projeto
+## 🚀 Executando o Projeto
 
-```bash
-git clone https://github.com/SEU-USUARIO/BELLA-Pizzaria.git
-```
+Para rodar o projeto localmente, siga os passos abaixo:
 
-```bash
-cd BELLA-Pizzaria
-```
-
-Depois basta abrir o arquivo **index.html** ou utilizar o **Live Server** no Visual Studio Code.
-
----
-
-## 🔮 Próximas Melhorias
-
-- ⭐ Sistema de favoritos
-- 🔍 Busca de pizzas
-- 🍕 Filtro por categorias
-- 💾 Carrinho salvo com Local Storage
-- 👤 Login de usuários
-- 💳 Integração com gateway de pagamento
-- 📦 Histórico de pedidos
-- 🌙 Modo escuro
-
----
-
-## 📄 Licença
-
-Projeto desenvolvido para fins de estudo e prática de desenvolvimento Front-end.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/BELLA-Pizzaria.git](https://github.com/SEU-USUARIO/BELLA-Pizzaria.git)
